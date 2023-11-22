@@ -40,3 +40,24 @@ jobs:
           branch: main
           default_author: github_actions
           message: 'Generate Contribution Snake'
+
+  juejin-posts:
+   runs-on: ubuntu-latest
+   steps:                    # 工作流步骤
+     # step 1. 获取源码
+     - name: Chekcout 🛎️             # 步骤名
+       uses: actions/checkout@master # 使用插件名 => https://github.com/actions/checkout
+
+     # step 2. 生成列表、并插入到 README
+     - name: Append Juejin Posts List 🔧
+       run: |
+         npm install
+         node ./renderPosts.mjs
+
+     # step 3. 使用 EndBug/add-and-commit 提交代码, see: https://github.com/EndBug/add-and-commit
+     - name: Push to GitHub
+       uses: EndBug/add-and-commit@v9
+       with:
+         branch: main
+         default_author: github_actions
+         message: 'render renderPosts'
