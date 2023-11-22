@@ -1,7 +1,5 @@
 ## <div align="center">Hi！ I‘m Sunshine824!👋 </div>
-
-#### <div align="center">a 𝑭𝒓𝒐𝒏𝒕-𝒆𝒏𝒅 𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓</div>
-#### <div align="center">Like watching anime, playing games.</div>
+#### <div align="center">A front -end developer ✨ from China likes to watch anime, stickers,👻 sometimes positive, sometimes nothing to do.👨‍💻</div>
 <div align="center">
   <img src="https://img.shields.io/badge/-JavaScript-f6da1c?style=flat&logo=javascript&logoColor=white">
   <img src="https://img.shields.io/badge/-TypeScript-2b6dbf?style=flat&logo=typescript&logoColor=white">
@@ -24,3 +22,12 @@
      <img align="" height="137px" src="https://github-readme-stats.vercel.app/api?username=sunshine824&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite" />
      <img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sunshine824&hide_title=true&hide_border=true&layout=compact&bg_color=0,73FA79,73FDFF,D783FF&theme=graywhite&locale=cn&card_width=240" />
 </div >
+
+<br/>
+
+<!-- 贪吃蛇 - 图片由 actions/Generate Snake 定时生成 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+  <img width="100%" alt="github-snake" src="./assets/github-snake.svg" />
+</picture>
