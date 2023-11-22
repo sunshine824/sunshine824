@@ -26,9 +26,9 @@ const appendHtmlText = [
     .querySelector(".action-list .date")
     ?.textContent?.replace(/\s*/g, "");
   const link = ele.querySelector(".content-wrapper .title-row a.title");
-  return `${total}\n<li>[${data}] <a href="https://juejin.cn${link?.getAttribute(
+  return `${total}\n<p>[${data}] <a href="https://juejin.cn${link?.getAttribute(
     "href"
-  )}">${link?.textContent}</a></li>`;
+  )}">${link?.textContent}</a></p>`;
 }, "");
 
 // 4. 读取 README, 并在 <!-- posts start --> 和 <!-- posts end --> 中间插入生成的 html
@@ -37,7 +37,7 @@ const res = fs
   .readFileSync(README_PATH, "utf-8")
   .replace(
     /(?<=\<\!-- posts start --\>)[.\s\S]*?(?=\<\!-- posts end --\>)/,
-    `\n<ul>${appendHtmlText}\n</ul>\n`
+    `\n<div align="center">${appendHtmlText}\n</div>\n`
   );
 
 // 5. 修改 README
