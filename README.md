@@ -24,3 +24,12 @@
      <img align="" height="137px" src="https://github-readme-stats.vercel.app/api?username=sunshine824&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite" />
      <img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sunshine824&hide_title=true&hide_border=true&layout=compact&bg_color=0,73FA79,73FDFF,D783FF&theme=graywhite&locale=cn&card_width=240" />
 </div >
+
+<br/>
+
+<!-- 贪吃蛇 - 图片由 actions/Generate Snake 定时生成 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+  <img width="100%" alt="github-snake" src="./assets/github-snake.svg" />
+</picture>
