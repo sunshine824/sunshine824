@@ -14,6 +14,7 @@
   <img alt="Static Badge" src="https://img.shields.io/badge/Vite-%23212122?logo=vite">
   <img src="https://img.shields.io/badge/-Git-ee462c?style=flat&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/-ESLint-%234B32C3?style=flat-square&logo=eslint">
+  <img src="https://img.shields.io/badge/-QianKun-%234B32C3d?style=flat-square&logo=qiankun">
 </div>
 
 <br/>
