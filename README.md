@@ -31,3 +31,13 @@
   <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
   <img width="100%" alt="github-snake" src="./assets/github-snake.svg" />
 </picture>
+
+<!-- posts start -->
+<ul>
+<li>[18天前] <a href="https://juejin.cn/post/7297053260085968911">Vue3 Element-Plus 一站式生成动态表单</a></li>
+<li>[3月前] <a href="https://juejin.cn/post/7260746629396693051">Pinia 持久化存储插件二次封装</a></li>
+<li>[10月前] <a href="https://juejin.cn/post/7189437808094740535">NestJS全栈进阶——后台管理系统搭建、TypeOrm使用【值得学习】</a></li>
+<li>[1年前] <a href="https://juejin.cn/post/7068199676775759903">Vue3 + Vite2 + TypeScript + Pinia(Vuex)+JSX 搭建企业级开发脚手架【开箱即用】</a></li>
+<li>[2年前] <a href="https://juejin.cn/post/6898323833783058439">Vue+TypeScript+Antd 实用脚手架(开箱即用)</a></li>
+</ul>
+<!-- posts end -->
