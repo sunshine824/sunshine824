@@ -11,7 +11,7 @@
   <img alt="Static Badge" src="https://img.shields.io/badge/TypeORM-%2398c032?logo=typeorm">
 </div>
 <div align="center">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Nest-%234ca286?logo=nest">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Nest-%234ca286?logo=Nest">
   <img src="https://img.shields.io/badge/-Webpack-%232C3A42?style=flat-square&logo=webpack">
   <img alt="Static Badge" src="https://img.shields.io/badge/Vite-%23212122?logo=vite">
   <img src="https://img.shields.io/badge/-Git-ee462c?style=flat&logo=git&logoColor=white">
