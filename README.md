@@ -1,4 +1,4 @@
-## <div align="center">Hi！ I‘m Sunshine824!👋 </div>
+## <div align="center">Hi！ I‘m Chen Xin!👋 </div>
 #### <div align="center">A front -end developer ✨ from China likes to watch anime, stickers.👻sometimes positive, sometimes nothing to do.👨‍💻</div>
 <div align="center">
   <img src="https://img.shields.io/badge/-JavaScript-f6da1c?style=flat&logo=javascript&logoColor=white">
