@@ -33,7 +33,7 @@ const appendHtmlText = [
     ?.textContent?.replace(/\s*/g, "");
 
   const link = ele.querySelector(".content-wrapper .title-row a.title");
-  return `${total}\n<p>[${date}] [${view}阅读] [${like}点赞] <a href="https://juejin.cn${link?.getAttribute(
+  return `${total}\n<p>[${date}] [${view}阅读] <a href="https://juejin.cn${link?.getAttribute(
     "href"
   )}">${link?.textContent}</a></p>`;
 }, "");
