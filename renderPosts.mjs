@@ -33,9 +33,9 @@ const appendHtmlText = [
     ?.textContent?.replace(/\s*/g, "");
 
   const link = ele.querySelector(".content-wrapper .title-row a.title");
-  return `${total}\n<p>[${date}]<a href="https://juejin.cn${link?.getAttribute(
+  return `${total}\n<p>[${date}] [${view}阅读] [${like}点赞] <a href="https://juejin.cn${link?.getAttribute(
     "href"
-  )}">${link?.textContent}</a> [View ${view}] [Like ${like}] </p>`;
+  )}">${link?.textContent}</a></p>`;
 }, "");
 
 // 4. 读取 README, 并在 <!-- posts start --> 和 <!-- posts end --> 中间插入生成的 html
