@@ -25,10 +25,17 @@ const appendHtmlText = [
   const data = ele
     .querySelector(".action-list .date")
     ?.textContent?.replace(/\s*/g, "");
+  const like = ele
+    .querySelector(".action-list .like")
+    ?.textContent?.replace(/\s*/g, "");
+  const view = ele
+    .querySelector(".action-list .view")
+    ?.textContent?.replace(/\s*/g, "");
+
   const link = ele.querySelector(".content-wrapper .title-row a.title");
-  return `${total}\n<p>[${data}] <a href="https://juejin.cn${link?.getAttribute(
+  return `${total}\n<p>[${data}]<a href="https://juejin.cn${link?.getAttribute(
     "href"
-  )}">${link?.textContent}</a></p>`;
+  )}">${link?.textContent}</a> [View ${view}] [Like ${like}] </p>`;
 }, "");
 
 // 4. 读取 README, 并在 <!-- posts start --> 和 <!-- posts end --> 中间插入生成的 html
