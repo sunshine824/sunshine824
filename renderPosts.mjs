@@ -22,7 +22,7 @@ const appendHtmlText = [
     ".detail-list .post-list-box .entry-list .entry"
   ),
 ].reduce((total, ele) => {
-  const data = ele
+  const date = ele
     .querySelector(".action-list .date")
     ?.textContent?.replace(/\s*/g, "");
   const like = ele
@@ -33,7 +33,7 @@ const appendHtmlText = [
     ?.textContent?.replace(/\s*/g, "");
 
   const link = ele.querySelector(".content-wrapper .title-row a.title");
-  return `${total}\n<p>[${data}]<a href="https://juejin.cn${link?.getAttribute(
+  return `${total}\n<p>[${date}]<a href="https://juejin.cn${link?.getAttribute(
     "href"
   )}">${link?.textContent}</a> [View ${view}] [Like ${like}] </p>`;
 }, "");
