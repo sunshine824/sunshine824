@@ -37,9 +37,9 @@
 
 <!-- posts start -->
 <div align="center">
-<p>[3月前] [589阅读] <a href="https://juejin.cn/post/7352799449457147919">Vue3 + Openlayers9 项目实战训练（一）：初识地图</a></p>
+<p>[3月前] [594阅读] <a href="https://juejin.cn/post/7352799449457147919">Vue3 + Openlayers9 项目实战训练（一）：初识地图</a></p>
 <p>[2年前] [4.9k阅读] <a href="https://juejin.cn/post/7068199676775759903">Vue3 + Vite2 + TypeScript + Pinia(Vuex)+JSX 搭建企业级开发脚手架【目录篇】</a></p>
-<p>[5月前] [4.3k阅读] <a href="https://juejin.cn/post/7322305256171634728">23年一个迷茫老前端的总结和规划</a></p>
+<p>[5月前] [4.4k阅读] <a href="https://juejin.cn/post/7322305256171634728">23年一个迷茫老前端的总结和规划</a></p>
 <p>[8月前] [6.0k阅读] <a href="https://juejin.cn/post/7297053260085968911">Vue3 Element-Plus 一站式生成动态表单</a></p>
 <p>[4月前] [36阅读] <a href="https://juejin.cn/post/7338074027281301544">突然有一天，前老板邀请你回去上班，你回去吗？</a></p>
 <p>[5月前] [1.2k阅读] <a href="https://juejin.cn/post/7321203324619538484">Vue3 折叠面板组件实现</a></p>
